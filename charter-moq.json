@@ -1,0 +1,28 @@
+[
+  {
+    "name": "MoQ",
+    "streams": [
+      {
+        "id": "moq-explo",
+        "name": "Explo",
+        "type": "MOQ",
+        "ll": false,
+        "manifest": "https://explo2cdn1.broadpeak.tv:9444"
+      },
+      {
+        "id": "moq-charter-ll",
+        "name": "charter - ll",
+        "type": "MOQ",
+        "ll": false,
+        "manifest": "https://moq-relay01.enwd.co.sa.charterlab.com:9444/bpk-tv/00159-ll"
+      },
+      {
+        "id": "moq-charter",
+        "name": "charter",
+        "type": "MOQ",
+        "ll": false,
+        "manifest": "https://moq-relay01.enwd.co.sa.charterlab.com:9444/bpk-tv/00159"
+      }
+    ]
+  }
+]
