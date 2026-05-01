@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Sources Tiles DASH",
+    "streams": [
+      {
+        "id": "multi_tf1-dash",
+        "name": "TF1",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://d3d5nmxqqu69rp.cloudfront.net/bpk-tv/multi_tf1/default/index.mpd"
+      },
+      {
+        "id": "multi_france2-dash",
+        "name": "France2",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://d3d5nmxqqu69rp.cloudfront.net/bpk-tv/multi_france2/default/index.mpd"
+      },
+      {
+        "id": "multi_arte-dash",
+        "name": "Arte",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://d3d5nmxqqu69rp.cloudfront.net/bpk-tv/multi_arte/default/index.mpd"
+      },
+      {
+        "id": "multi_lequipe-dash",
+        "name": "L'Equipe",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://d3d5nmxqqu69rp.cloudfront.net/bpk-tv/multi_lequipe/default/index.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Tiled DASH",
+    "streams": [
+      {
+        "id": "tile-dash",
+        "name": "Tile",
+        "type": "DASH",
+        "ll": false,
+        "manifest_": "https://d3d5nmxqqu69rp.cloudfront.net/hevctiling/bpk-tv/tile/default/index.mpd?tile1x1=TF1&tile1x2=France2&tile2x1=Arte&tile2x2=LEquipe",
+        "manifest": "https://d3d5nmxqqu69rp.cloudfront.net/hevctiling/bpk-tv/tile/default/index.mpd?tile0=TF1&tile1=France2&tile2=Arte&tile3=LEquipe&layout=quad",
+        "manifest_vri": "https://172.26.158.229:1443/bpk-tv/tile/default/index.mpd?tile0=TF1&tile1=France2&tile2=Arte&tile3=LEquipe&layout=single",
+        "tiles": ["TF1", "France2", "LEquipe", "Arte"]
+      },
+      {
+        "id": "tile-dash-ad-local",
+        "name": "TileAd",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://d3d5nmxqqu69rp.cloudfront.net/segtimeline_1/tile/index.mpd?tile0=BoatRaceHD&tile1=CoolDrink&layout=single-ad",
+        "tiles": ["BoatRaceHD", "CyclingHD", "CosmosHD", "TearsOfSteelHD", "ChimeraHD","Foot01HD","Foot02HD","Foot03HD"],
+	"tiles_ad": ["CoolDrink", "Axe"]
+      },
+      {
+        "id": "tile-dash-ad2-local",
+        "name": "TileAd2",
+        "type": "DASH",
+        "ll": false,
+        "manifest": "https://d3d5nmxqqu69rp.cloudfront.net/segtimeline_1/tile/index.mpd?tile0=BoatRaceHD&tile1=CyclingHD&tile2=CoolDrink&layout=topbottom-ad",
+        "tiles": ["BoatRaceHD", "CyclingHD", "CosmosHD", "TearsOfSteelHD", "ChimeraHD","Foot01HD","Foot02HD","Foot03HD"],
+	"tiles_ad": ["CoolDrink", "Axe"]
+      }
+    ]
+  }
+]
