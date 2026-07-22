@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <MPD minBufferTime="PT4S"
-    profiles="urn:mpeg:dash:profile:isoff-on-demand:2011,urn:com:dashif:dash264" type="static"
+    profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static"
     xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+    xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd"
     xmlns:cenc="urn:mpeg:cenc:2013" mediaPresentationDuration="PT1H3.602S">
     <Period id="1" start="PT0S">
         <BaseURL>https://34.182.149.99/bpk-tv/WABC/cmafclear/1/dash/</BaseURL>
