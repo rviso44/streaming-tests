@@ -12,10 +12,9 @@
                 schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
             <SegmentTemplate initialization="$RepresentationID$-init-t85662316884656.mp4"
-                media="$RepresentationID$-$Time$.mp4" startNumber="445708595" timescale="48000"
-                presentationTimeOffset="0">
+                media="$RepresentationID$-$Time$.mp4" startNumber="1" timescale="48000">
                 <SegmentTimeline>
-                    <S t="85662489473712" d="191488" />
+                    <S t="0" d="191488" />
                     <S t="85662489665200" d="192512" r="1" />
                     <S t="85662490050224" d="191488" />
                     <S t="85662490241712" d="192512" r="1" />
@@ -590,10 +589,9 @@
             <Accessibility schemeIdUri="urn:scte:dash:cc:cea-608:2015" value="CC1=eng" />
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
             <SegmentTemplate initialization="$RepresentationID$-init-t107077896105540.mp4"
-                media="$RepresentationID$-$Time$.mp4" startNumber="445708595" timescale="60000"
-                presentationTimeOffset="0">
+                media="$RepresentationID$-$Time$.mp4" startNumber="1" timescale="60000">
                 <SegmentTimeline>
-                    <S t="107078111841060" d="240240" r="623" />
+                    <S t="0" d="240240" r="623" />
                     <S t="107078261991060" d="240240" r="274" />
                 </SegmentTimeline>
             </SegmentTemplate>
