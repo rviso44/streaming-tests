@@ -4,7 +4,7 @@
     xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd"
     xmlns:cenc="urn:mpeg:cenc:2013" mediaPresentationDuration="PT1H3.602S">
-    <Period id="1" start="PT0S">
+    <Period id="1" start="PT1784631.601759S">
         <BaseURL>https://34.182.149.99/bpk-tv/WABC/cmafclear/1/dash/</BaseURL>
         <AdaptationSet id="1" audioSamplingRate="48000" codecs="mp4a.40.2" contentType="audio"
             group="1" lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
