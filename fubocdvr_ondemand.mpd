@@ -13,7 +13,7 @@
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
             <SegmentTemplate initialization="$RepresentationID$-init-t85662316884656.mp4"
                 media="$RepresentationID$-$Time$.mp4" startNumber="445708595" timescale="48000"
-                presentationTimeOffset="85662489472848">
+                presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="85662489473712" d="191488" />
                     <S t="85662489665200" d="192512" r="1" />
@@ -591,7 +591,7 @@
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
             <SegmentTemplate initialization="$RepresentationID$-init-t107077896105540.mp4"
                 media="$RepresentationID$-$Time$.mp4" startNumber="445708595" timescale="60000"
-                presentationTimeOffset="107078111841060">
+                presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="107078111841060" d="240240" r="623" />
                     <S t="107078261991060" d="240240" r="274" />
